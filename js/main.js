@@ -8,6 +8,7 @@ function scrollFunction() {
     document.getElementById("demoBtn").style.backgroundColor = "#fe521d";
     document.getElementById("demoBtn").style.color = "#fff";
     document.getElementById('toTOP').style.display = "block";
+    document.getElementById('toTOP-2').style.display = "block";
   } else {
     document.getElementById("header").style.backgroundColor = "transparent";
     document.getElementById("header").style.
@@ -15,6 +16,7 @@ function scrollFunction() {
     document.getElementById("demoBtn").style.backgroundColor = "#fff";
     document.getElementById("demoBtn").style.color = "#fe521d";
     document.getElementById('toTOP').style.display = "none";
+    document.getElementById('toTOP-2').style.display = "none";
   }
 }
 

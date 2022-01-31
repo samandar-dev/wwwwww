@@ -2782,6 +2782,47 @@ body {
   padding-bottom: 70px;
 }
 
-.toTOP {
+.btn-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 40px;
+  height: 42px;
+
+  font-size: 25px;
+
+  color: var(--color-2);
+  background: var(--bg-color-4);
+
+  text-align: center;
+  transition: .2s;
+
+  border: none;
+  cursor: pointer;
+  z-index: 400;
+  display: none;
+  overflow: hidden;
+}
+
+.btn-top .bx {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: .4s;
+}
+
+.btn-top:hover .bx {
+  top: -10px;
+  transition: .4s;
+}
+
+.btn-top:hover {
+  background: var(--bg-color-7);
+  transition: .2s;
+}
+
+.toTOP-2 {
   display: block;
 }
+

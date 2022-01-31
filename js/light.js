@@ -17,8 +17,6 @@ function scrollFunction() {
     document.getElementById("demoBtn").style.backgroundColor = "#fe521d";
     document.getElementById("demoBtn").style.color = "#fff";
     document.getElementById('about__logo').style.backgroundImage = "url('https://strend-vue.envytheme.com/_nuxt/img/black-logo.2d0bbd0.png')"
-    document.getElementById('toTOP-2').style.display = "block";
-
   } else {
     document.getElementById("header").style.backgroundColor = "transparent";
     document.getElementById("nav__link-1").style.color = "#fff";
@@ -35,7 +33,6 @@ function scrollFunction() {
     document.getElementById("demoBtn").style.backgroundColor = "#fff";
     document.getElementById("demoBtn").style.color = "#fe521d";
     document.getElementById('about__logo').style.backgroundImage = "url('https://strend-vue.envytheme.com/_nuxt/img/white-logo.75b255a.png')"
-    document.getElementById('toTOP-2').style.display = "none";
   }
 }
 

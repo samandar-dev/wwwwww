@@ -1081,138 +1081,154 @@ body {
 
 
 /* START PART-5  PAGES-PLAN */
+/* PAGESPLAN PART  */
 
-.pagesplan-section{
-  background-color: var(--bg-color-10);
+.pagesplan-section {
+  background-color: #fafafa;
 }
-.pagesplan{
+
+.pagesplan {
   padding: 110px 0 80px 0;
   border-radius: 5px;
 }
-.pagesplan__title{
-  font-family: var(--font-family);
+
+.pagesplan__title {
+  font-family: 'Dosis', sans-serif;
   font-size: 40px;
-  color: var(--color-1);
+  color: #333;
   font-weight: 700;
   text-align: center;
 }
-.pagesplan__text{
+
+.pagesplan__text {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   max-width: 520px;
   margin: 10px auto 0;
   text-align: center;
 }
-.pagesplan__div{
+
+.pagesplan__div {
   margin-bottom: 60px;
 }
-.pagesplan__btns{
+
+.pagesplan__btns {
   align-items: center;
   justify-content: center;
   display: flex;
   margin-bottom: 45px;
 }
-.pagesplan__btn{
-  font-family: var(--font-family);
+
+.pagesplan__btn {
+  font-family: 'Dosis', sans-serif;
   font-size: 16px;
   padding: 10px 30px 11px 30px;
-  color: var(--color-2);
+  color: #fff;
   background-color: #333;
   border: none;
   border-top-left-radius: 6px;
-  border-bottom-left-radius:6px;
+  border-bottom-left-radius: 6px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ;
+  transition: all 0.3s;
   margin-right: -2px;
   position: relative;
 }
-.pagesplan__btn::after{
+
+.pagesplan__btn::after {
   content: "";
   width: 20px;
   height: 100%;
-  background-color: var(--color-1);
+  background-color: #333;
   position: absolute;
   top: 0;
   right: 0px;
 }
 
-.pagesplan__btn:hover::after{
+.pagesplan__btn:hover::after {
   right: -5px;
 }
-.pagesplan__button{
-  font-family: var(--font-family);
+
+.pagesplan__button {
+  font-family: 'Dosis', sans-serif;
   font-size: 16px;
-  color: var(--color-1);
-  background-color: var(--color-2);
+  color: #333;
+  background-color: #fff;
   border-radius: 0 5px 5px 0;
   padding: 10px 30px 11px;
   border: none;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.3s ;
+  transition: all 0.3s;
 }
-.pagesplan__button:hover{
-  background-color: var(--color-1);
-  color: var(--color-2);
-  transition: all 0.3s ;
+
+.pagesplan__button:hover {
+  background-color: #333;
+  color: #fff;
+  transition: all 0.3s;
 }
-.pagesplan__list{
+
+.pagesplan__list {
+  list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.pagesplan__item{
-  width: 415px;
+
+.pagesplan__item {
+  width: 410px;
   padding: 30px;
-  background-color:var(--color-2);
+  background: var(--bg-color-linear-gradient-1);
   transition: 0.5s;
   border-radius: 5px;
-}
-.pages-pricing--activ{
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.pagesplan__item:hover{
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: center;
 }
 
-.pages-pricing__title{
-  font-family: var(--font-family);
+.pages-pricing__title {
+  font-family: 'Dosis', sans-serif;
   font-size: 26px;
-  color: var(--color-1);
+  color: #333;
 }
-.pages-pricing__text{
+
+.pages-pricing__text {
   font-size: 15px;
-  color: var(--color-3);
+  color: #57647c;
   width: 140px;
+  margin: 0 auto;
   margin-top: 12px;
   margin-bottom: 12px;
 }
-.pages-pricing__div{
+
+.pages-pricing__div {
   display: flex;
-  align-items:flex-end;
+  align-items: flex-end;
+  width: 90px;
+  margin: 0 auto;
   margin-bottom: 16px;
 }
-.pages-pricing__zero{
+
+.pages-pricing__zero {
   font-family: 'Dosis', sans-serif;
   font-size: 50px;
   font-weight: bold;
-  color: var(--color-10);
+  color: #212529;
 }
-.pages-pricing__span{
-  font-family: var(--font-family);
+
+.pages-pricing__span {
+  font-family: 'Dosis', sans-serif;
   position: relative;
   bottom: 5px;
   font-size: 20px;
-  color: var(--color-10);
-  font-weight: bold ;
+  color: #212529;
+  font-weight: bold;
 }
-.pages-pricing__link{
-  font-family: var(--font-family);
+
+.pages-pricing__link {
+  font-family: 'Dosis', sans-serif;
   font-size: 16px;
-  color: var(--color-2);
+  color: #fff;
   padding: 10px 32px 12px;
-  background-color:var(--bg-color-15);
+  background-color: #898989;
   text-decoration: none;
   display: inline-block;
   border-radius: 30px;
@@ -1221,34 +1237,42 @@ body {
   transition: all 0.5s ease;
 }
 
-.pagesplan__item:hover .pages-pricing__link{
-  background-color:var(--color-4);
-}
-.pages-pricing__link:hover{
-  background-color: var(--bg-color-7) !important;
-  transition: all 0.5s ease;
-}
-.pages-pricing__link--activ{
-  background-color: var(--color-4);
+.pagesplan__item:hover .pages-pricing__link {
+  background-color: #ff4800;
 }
 
-.pages-pricing__item{
+.pages-pricing__link:hover {
+  background-color: #4ac728 !important;
+  transition: all 0.5s ease;
+}
+
+.pages-pricing__link--activ {
+  background-color: #ff4800;
+}
+
+.pages-pricing__item {
   display: flex;
   align-items: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   color: #57647c;
-  margin: 0 0 13px 0;
 }
-.pages-pricing__item::before{
+
+.pages-pricing__item::before {
   content: '';
   background-image: url('../img/pages-check.svg');
-  display:block;
+  display: block;
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
   margin-right: 7px;
   align-items: center;
+}
+
+.pages-pricing__item .bx {
+  font-size: 25px;
+  color: var(--color-4);
+  background: transparent;
 }
 
 /* START PART-6 PAGES-CARUSEL2 */
